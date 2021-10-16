@@ -34,8 +34,96 @@ Mocha의 탄생
 
 이후 LiveScript라는 이름으로 변경
 
+
+1995년
+
 Nestscape Navigator에 LiveScript의 Interpreter탑제
 
 
+ps. 당시 Java의 인기가 많아 인기에 편승하고자 LiveScript를 Javascript로 변경 자바스크립트가 자바에서 나와서 자바스크립트가 아니라는 사실이 재미있다! ㅎㅎ
+
+
+마이크로 소프트는
+
+Reverse engineering을 하여 Netscape Navigator(브라우저)에 탑제된 Javascript라는 언어를 가져온다.
+
+그리하여 인터넷익스플로어 라는 브라우저에 탑제되는 JScript 탄생
+
+
+1996
+
+Nestscape는 ECMA International에 표준화를 제안
+
+
+1997
+
+ECMAScript 1 탄생
+
+
+1998
+
+ECMAScript 2 탄생
+
+
+1999
+
+ECMAScript 3 탄생
+
+-새로운 error handling 추가
+
+
+2000
+
+ECMAScript 4
+
+class, Enterprise scale, optional type annotation...
+
+
+그무렵.. Internet exploror 점유율 95% 돌파!
+
+- ECAMAScript 표준 이탈
+
+
+2004
+
+moz://a 사의 브라우저 Firefox 출시!
+
+ActionScript3언어와 Tamrin엔진 내장
+
+
+
+이무렵...
+
+JAVAScript vs JScript vs ActioScript3 삼파전
+
+
+2004
+
+Jesse James Garrett 라는 아저씨가
+
+AJAX 라는 기술 명세서에
+
+비동기적으로 서버에서 데이터를 받아오고 처리할 수 있는
+
+Asynchronous JavaScript and XML 도입
+
+
+이후 웹 개발시장이 점점 커진다.
+
+
+웹 개발 커뮤니티는 발전하고
+
+jQuey dojo mootools 과 같은 라이브러리가 나온다
+
+(브라우저의 다양성으로 개발의 어려움을 해결!)
+
+
+2008
+
+Google사의 chrome브라우저 등장
+
+JIT엔진(just-in-time compilation) 탑제
+
+-자바스크립트를 실행하는 속도가 굉장히 빠른 브라우저 탑제
 
 ﻿
