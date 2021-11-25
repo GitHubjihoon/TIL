@@ -1,23 +1,24 @@
-
-
 최로 이미지가 표연 가능한 웹 브라우저의 등장 "모자크 웹 브라우저"
 
 마크 앤드리슨
 
+​
 
 모자이크 웹 브라우저 기반으로 업그레이드한 브라우저 Netscape Navigator 개발
 
 당시 시장 점유율을 80%까지 장학함 ㅎㄷㄷ
 
+​
 
 사용자들에게 보여주는 정적인 요소에
 
 동적인 요소를 더하기 위해 DOM요소를 다이나믹하게 조작하는 Scripting언어를 추가고픔
 
+​
 
 추가할 언어를 고민한다
 
-JAVA vs sheme
+JAVA  vs sheme
 
 자바는 당시에 유행하고 많이 사용하지만 웹 개발자들이 사용하기에 너무 어렵고 무거웠다
 
@@ -27,6 +28,7 @@ sheme Script 변형 하여 새로운 언어를 개발
 
 언어의 컨셉은 sheme 유지 그러나 문법은 자바스럽게 만듦
 
+​
 
 1994년 9월
 
@@ -34,36 +36,43 @@ Mocha의 탄생
 
 이후 LiveScript라는 이름으로 변경
 
+​
 
 1995년
 
 Nestscape Navigator에 LiveScript의 Interpreter탑제
 
+​
 
-ps. 당시 Java의 인기가 많아 인기에 편승하고자 LiveScript를 Javascript로 변경 자바스크립트가 자바에서 나와서 자바스크립트가 아니라는 사실이 재미있다! ㅎㅎ
+ps. 당시 Java의 인기가 많아 인기에 편승하고자  LiveScript를 Javascript로 변경 자바스크립트가 자바에서 나와서 자바스크립트가 아니라는 사실이 재미있다! ㅎㅎ
 
+​
 
-마이크로 소프트는
+마이크로 소프트는 
 
 Reverse engineering을 하여 Netscape Navigator(브라우저)에 탑제된 Javascript라는 언어를 가져온다.
 
 그리하여 인터넷익스플로어 라는 브라우저에 탑제되는 JScript 탄생
 
+​
 
 1996
 
-Nestscape는 ECMA International에 표준화를 제안
+Nestscape는  ECMA International에 표준화를 제안
 
+​
 
 1997
 
 ECMAScript 1 탄생
 
+​
 
 1998
 
 ECMAScript 2 탄생
 
+​
 
 1999
 
@@ -71,6 +80,7 @@ ECMAScript 3 탄생
 
 -새로운 error handling 추가
 
+​
 
 2000
 
@@ -78,11 +88,13 @@ ECMAScript 4
 
 class, Enterprise scale, optional type annotation...
 
+​
 
 그무렵.. Internet exploror 점유율 95% 돌파!
 
 - ECAMAScript 표준 이탈
 
+​
 
 2004
 
@@ -90,12 +102,15 @@ moz://a 사의 브라우저 Firefox 출시!
 
 ActionScript3언어와 Tamrin엔진 내장
 
+​
 
+​
 
 이무렵...
 
-JAVAScript vs JScript vs ActioScript3 삼파전
+JAVAScript  vs JScript vs ActioScript3 삼파전
 
+​
 
 2004
 
@@ -107,9 +122,11 @@ AJAX 라는 기술 명세서에
 
 Asynchronous JavaScript and XML 도입
 
+​
 
 이후 웹 개발시장이 점점 커진다.
 
+​
 
 웹 개발 커뮤니티는 발전하고
 
@@ -117,13 +134,90 @@ jQuey dojo mootools 과 같은 라이브러리가 나온다
 
 (브라우저의 다양성으로 개발의 어려움을 해결!)
 
+​
 
 2008
 
 Google사의 chrome브라우저 등장
 
-JIT엔진(just-in-time compilation) 탑제
+JIT엔진(just-in-time compilation) 탑재
 
--자바스크립트를 실행하는 속도가 굉장히 빠른 브라우저 탑제
+-자바스크립트를 실행하는 속도가 굉장히 빠른 브라우저 탑재
 
-﻿
+​
+
+2008,7
+
+chrome, Firefox, Netscape Navigator, Internet exploror
+
+4개의 브라우저가 모여 표준화 도모
+
+​
+
+2009
+
+ECMAScript 5
+
+​
+
+2015
+
+ECMAScript 6
+
+-default parameter, class, arrow function, const, let
+
+​
+
+...... a Few years latter
+
+​
+
+javascript engines in 웹 브라우저
+
+(웹 브라우저에서 자바스크립트가 잘 돌아가도록 하는 내장 장치)
+
+​
+
+chrome : V8 (노드, 일렉트론 등에서도 많이 쓰임)
+
+Firefox : SpiderMonkey
+
+Safari : JSCore
+
+MS Edge : Chakra ... now a day : use V8
+
+Opera : Carakan
+
+Adobe Flash : Tamarin
+
+​
+
+최신 버전의 ECMA script를 사용한 후 
+
+사용자에게 배포 전
+
+JavaScript transcompiler use for BABEL
+
+을 사용하여 버전 변환 후 배포한다.
+
+​
+
+​
+
+동향...
+
+SPA (Single Page Application)
+
+페이지 안에서 필요한 부분만 데이터를 받아와서 부분 업데이트 하는 것
+
+​
+
+React, Angular, view...etc
+
+​
+
+node : V8(자바스크립트 엔진)을 이용한 back-end에서 서비스를 구현할 수 있음
+
+react native : 모바일 어플리케이션 제작 가능
+
+electron : 데스크탑 어플리케이션 제작 가능
