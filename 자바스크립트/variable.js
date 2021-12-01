@@ -1,12 +1,4 @@
-// 1. Use strict
-// added is ES 5
-// use this for Vanila Javascript.
-'use strict';
 
-// 2. variable (변수)
-// let (added in ES6)
-
-let name = 'JJang Gu';
 자바스크립트 3. 데이터 타입, data types, let VS var, hoisting
 
 
@@ -87,8 +79,8 @@ let name 을 통해서 name 이라는 이름의 변수를 선언(생성)합니�
 3. 변수에 값을 할당한다 라는건 방(메모리)에 값을 넣어두는 것 입니다.
 
 
-변수_선언_메모리.png대표이미지 삭제
-변수에_값을_할당.png대표이미지 삭제
+대표이미지 삭제
+대표이미지 삭제
 사진 설명을 입력하세요.
 
 
@@ -96,11 +88,42 @@ let name 을 통해서 name 이라는 이름의 변수를 선언(생성)합니�
 2. Block scope
 
 
+자바스크립트에서는 { } 안에 코드를 입력하여 Block scope(이하 블록스코프)를 설정할 수있다.
+
+
+- 같은 블록스코프 안에서 조회하는 경우
+
+
+{
+let name = 'banana';
+console.log(name);
+}
+내용을 입력하세요.
+# { } 같은 블록 스코프 안에 있는 변수는 값을 조회할 수 있다.
+
+
+- 블록 스코프 바깥에서 호출할 경우
+
+
+{
+let name = 'banana';
+}
+console.log(name);
+내용을 입력하세요.
+# { } 블록스코프 바깥에서 변수를 조회하면 값을 호출할 수 없다.
+
+
+- Global scope
+
+
+let name = 'banana';
+{
+console.log(name);
+}
+console.log(name);
+내용을 입력하세요.
+# { } 블록 스코프가 아니라 문서 바로 선언한 변수는 어디서든 호출하여 값에 접근할 수 있다.
+
+# 글로벌 변수들은 어플리케이션의 실행부터 끝까지 메모리에 탑재되어 있다. (최소한으로 사용 권장)
 
 ﻿
-console.log(name);
-
-name = 'hello';
-console.log(name);
-
-
