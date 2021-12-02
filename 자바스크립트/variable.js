@@ -126,4 +126,36 @@ console.log(name);
 
 # 글로벌 변수들은 어플리케이션의 실행부터 끝까지 메모리에 탑재되어 있다. (최소한으로 사용 권장)
 
+
+hoisting
+
+
+자바스크립트에서 변수를 선언하는 방법은
+
+
+let name = 'kingkong';
+내용을 입력하세요.
+변수명 앞에 let을 사용하는것 입니다. (let은 es6부터 추가된 기능입니다.)
+
+예전에는 var을 사용했습니다.
+
+
+var name = 'dont ever use this!';
+내용을 입력하세요.
+오늘날에는 var를 사용하지 않습니다
+
+why?
+
+1. 변수 선언전 값을 할달할 수 있다
+
+2. 값을 할당하기 전 콘솔에 호출할 수 있다.
+
+ex)
+
+
+console.log(kakaoPay);
+kakaoPay = 'usefull';
+var kakaoPay;
+내용을 입력하세요.
+
 ﻿
